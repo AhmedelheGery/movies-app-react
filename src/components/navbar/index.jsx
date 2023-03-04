@@ -35,14 +35,19 @@ export default function Navbar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box
+      className='mobile-nav'
+      onClick={handleDrawerToggle}
+      sx={{ textAlign: 'center' }}
+      style={{ backgroundColor: 'red !important' }}
+    >
       <Typography variant='h6' sx={{ my: 2 }}>
-        MUI
+        <img className='logo' src={logoImg} />
       </Typography>
       <Divider />
       <List>
         {navItems.map((item, i) => (
-          <ListItem key={i} disablePadding>
+          <ListItem component={Link} to={item.path} key={i} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText primary={item.name} />
             </ListItemButton>

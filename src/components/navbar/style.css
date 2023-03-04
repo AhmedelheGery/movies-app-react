@@ -9,3 +9,15 @@
   text-decoration: none;
   color: #000;
 }
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .app-bar .MuiToolbar-root .MuiButtonBase-root {
+    background-color: blue !important;
+  }
+  .MuiTypography-root .logo {
+    width: 100px;
+  }
+  .MuiTypography-root .link {
+    text-decoration: none !important;
+  }
+}

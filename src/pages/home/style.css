@@ -29,3 +29,10 @@
   justify-content: space-between;
   margin: 0 auto;
 }
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .home-wrapper .header-wrapper,
+  .home-wrapper .result-list {
+    display: block;
+  }
+}

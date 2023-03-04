@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Blog from './components/blog';
 import Celebs from './components/celebs';
 import Movies from './components/movies';
@@ -10,7 +10,7 @@ import Home from './pages/home';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route element={<Home />} path='/' />
@@ -21,7 +21,7 @@ function App() {
         <Route element={<Blog />} path='/blog' />
         <Route element={<Celebs />} path='/celebs' />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
