@@ -1,0 +1,31 @@
+.card-wrapper {
+  width: 24%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.card-wrapper .poster-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  min-height: 300px;
+}
+
+.card-wrapper .poster-wrapper .poster-img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.card-wrapper .poster-wrapper .rating-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #0c8aa8;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}

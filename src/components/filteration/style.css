@@ -1,0 +1,22 @@
+.filter-wrapper {
+  min-width: 200px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.filter-wrapper .select {
+  z-index: 1;
+  min-width: 170px;
+}
+
+.filter-wrapper .select .MuiSelect-select {
+  padding-left: 50px;
+}
+
+.filter-wrapper .filter-icon {
+  position: absolute;
+  z-index: 100;
+  right: 128px;
+  top: 15px;
+  color: #534f4f;
+}
