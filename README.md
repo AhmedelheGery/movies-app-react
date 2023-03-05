@@ -12,6 +12,6 @@ In the project directory, you can run:
 
 #### [2]: Open your terminal and run the next commands
 
-#### [2]: #### npm install
+#### [2]: npm install
 
-#### [3]: #### npm start`
+#### [3]: npm start`
