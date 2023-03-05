@@ -2,8 +2,6 @@
 
 ## Live Preview: https://ahmedelhegery.github.io/movies-app-react/
 
-In the project directory, you can run:
-
 ### Installation and running the project on development mode:
 
 #### 1: Clone the project on your device.
